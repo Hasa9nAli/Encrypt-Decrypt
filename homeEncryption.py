@@ -5,6 +5,7 @@ from PyQt5.QtGui import QPixmap
 # connect with the command line
 from windowEnDc import WindowEnDc 
 from rc5encryption import RC5
+"class for home window algorithm and design"
 
 class Home:
     def __init__(self):
@@ -413,6 +414,6 @@ automated payments, and on chain reputations
         self.homeWindow.showFullScreen()
         self.app.exec_()
 
-
+# this is object from class to start programming run 
 run = Home()
 run.runProgram()
